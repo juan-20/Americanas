@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <header>
+
+      <meta charset="utf-8">
+        <title>Cadastro</title>
+        <!-- framework -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/fontawesome.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+        <!-- local -->
+        <link rel="stylesheet" href="css/produtos.css">
+        <script src="js/main.js"></script>
+        <script src="js/produtos.js"></script>
+
+        <nav class="navbar navbar-inverse">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">oiiiiiiiiiiii</a>
+              </div>
+              <ul class="nav">
+                <li class="active"><a href="produtos.html">ínicio</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Administrar
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="admlogin.html">Usuarios</a>
+                      <a class="dropdown-item" href="admproduto.html">Produtos</a>
+                    </div>
+                  </li>
+                <li><a href="index.html">Sair</a></li>
+                </ul>
+
+                <div class="shopping-card">
+                  <a href="cart.html">
+                      <img class="uva" src="img/carrinho.png">
+                  </a>
+              </div>
+          </nav>
+
+          
+
+        </header>
+        <body>
+
+          <div class="product-card">
+            <h1>All Star</h1>
+            <p>Cano Alto</p>
+            <div class="product-pic"></div>
+            <div class="product-colors">
+              <span class="blue active" data-color="#4e4e4e" data-pic="url(1.jpg)"></span>
+              <span class="cinza active" data-color="#8e9094" data-pic="url(2.jpg)"></span>
+              <span class="azu active" data-color="#409dd3" data-pic="url(3.jpg)"></span>
+              <span class="marelo active" data-color="#eedd4a" data-pic="url(4.jpg"></span>
+            </div>
+            <div class="product-info">
+              <div class="product-price">R$ 180,00</div>
+              <a href="#" class="product-button">Adicionar ao carrinho</a>
+            </div>
+          </div>
+       
+
+
+          <div class="navigation">
+            <a href="produtos.html" class="bar"></a>
+            <a href="note.html" class="bar"></a>
+            <a href="al.html" class="bar"></a>
+          </div>
+           
+          <script>
+            $(".product-colors span").click(function(){
+              $(".product-colors span").removeClass("active");
+              $(this).addClass("active");
+              $("body").css("background",$(this).attr("data-color"));
+              $(".product-price").css("color",$(this).attr("data-color"));
+              $(".product-button").css("color",$(this).attr("data-color"));
+              $(".product-pic").css("background-image",$(this).attr("data-pic"));
+            });
+          </script>
+
+        </body>

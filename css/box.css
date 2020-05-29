@@ -1,0 +1,251 @@
+.box_ini{
+    width: 600px;
+    height: 600px;
+    padding: 40px;
+    position: absolute; 
+    align-self: center;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f0a500;
+    text-align: center;   
+    border-radius: 20px;
+    
+    box-shadow:
+  0 9.1px 2.7px rgba(0, 0, 0, 0.073),
+  0 13.7px 6.9px rgba(0, 0, 0, 0.135),
+  0 18.7px 14.2px rgba(0, 0, 0, 0.196),
+  0 26px 29.2px rgba(0, 0, 0, 0.261),
+  0 45px 80px rgba(0, 0, 0, 0.34)
+;
+}
+
+.box_cadu{
+    width: 600px;
+    height: 700px;
+    padding: 40px;
+    position: absolute; 
+    align-self: center;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f0a500;
+    text-align: center;   
+    border-radius: 20px;
+    
+    box-shadow:
+  0 9.1px 2.7px rgba(0, 0, 0, 0.073),
+  0 13.7px 6.9px rgba(0, 0, 0, 0.135),
+  0 18.7px 14.2px rgba(0, 0, 0, 0.196),
+  0 26px 29.2px rgba(0, 0, 0, 0.261),
+  0 45px 80px rgba(0, 0, 0, 0.34)
+;
+
+}
+
+
+/* config geral do form */
+.box{
+    width: 600px;
+    height: 600px;
+    padding: 40px;
+    position: absolute; 
+    align-self: center;  
+    right: 30%;
+    top: 310px;
+    transform: translate(-50%, -50%);
+    background: #f0a500;
+    text-align: center;   
+    border-radius: 20px;
+    
+    box-shadow:
+  0 9.1px 2.7px rgba(0, 0, 0, 0.073),
+  0 13.7px 6.9px rgba(0, 0, 0, 0.135),
+  0 18.7px 14.2px rgba(0, 0, 0, 0.196),
+  0 26px 29.2px rgba(0, 0, 0, 0.261),
+  0 45px 80px rgba(0, 0, 0, 0.34)
+;
+
+
+}
+
+.box_jus{
+    width: 800px;
+    height: 600px;
+    padding: 40px;
+    position: absolute;
+    left: 70%;
+    top: 310px;
+    transform: translate(-50%, -50%);
+    background-color: #2d77a1;
+    border-radius: 20px;
+
+}
+
+.box_jus label{
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: 60px;
+    font-size: 20px;
+}
+
+/* config do h1 */
+.box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 60px;
+    font-size: 30px;
+}
+
+/* config os input */
+.box input[type = "text"], .box input[type = "password"], .box input[type="email"],
+.box input[type="number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #137cb9;
+    padding: 20px 10px;
+    color: white;
+    width: 300px;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+.box_cadu input[type = "text"], .box_cadu input[type = "password"], .box_cadu input[type="email"],
+.box_cadu input[type="number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #137cb9;
+    padding: 20px 10px;
+    color: white;
+    width: 300px;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+.box_ini input[type = "text"], .box_ini input[type = "password"], .box_ini input[type="email"],
+.box_ini input[type="number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #137cb9;
+    padding: 20px 10px;
+    color: white;
+    width: 300px;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]::placeholder, .box input[type = "password"]::placeholder, .box input[type="email"]::placeholder,
+.box input[type="number"]::placeholder {
+    color: #fff;
+}
+
+.box_ini input[type = "text"]::placeholder, .box_ini input[type = "password"]::placeholder, .box_ini input[type="email"]::placeholder,
+.box_ini input[type="number"]::placeholder {
+    color: #fff;
+}
+
+.box_cadu input[type = "text"]::placeholder, .box_cadu input[type = "password"]::placeholder, .box_cadu input[type="email"]::placeholder,
+.box_cadu input[type="number"]::placeholder {
+    color: #fff;
+}
+
+/* Quando o input esta selecionado muda a cor */
+.box input[type = "text"]:focus,.box input[type = "password"]:focus, .box input[type="email"]:focus,
+.box input[type="number"]:focus, .box_ini input[value="Login"]:focus{
+    width: 380px;
+    border-color: #21bf73;
+    color: #363636;
+}
+
+.box_ini input[type = "text"]:focus,.box_ini input[type = "password"]:focus, .box_ini input[type="email"]:focus,
+.box_ini input[type="number"]:focus{
+    width: 380px;
+    border-color: #21bf73;
+    color: #363636;
+} 
+
+.box_cadu input[type = "text"]:focus,.box_cadu input[type = "password"]:focus, .box_cadu input[type="email"]:focus,
+.box_cadu input[type="number"]:focus{
+    width: 380px;
+    border-color: #21bf73;
+    color: #363636;
+} 
+
+.box input[value="Atualizar"]{
+    border: 0;
+    width: 150px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #d8345f;
+    padding: 14px 40px;
+    color: white;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[value="Atualizar"]:hover, .box_ini input[value="Login"]:hover,
+.box_cadu input[name="Logar"]:hover{
+    background-color: #d8345f;
+    width: 200px;
+    color: #363636;
+}
+
+/* config do input btn */
+.box input[value="Salvar"], .box_ini input[value="Cadastrar"],.box_cadu input[value="Cadastrar"],.box_cadu input[value="Cadastrar"] {
+    border: 0;
+    width: 150px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #21bf73;
+    padding: 14px 40px;
+    color: #fff;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+/* quando o mouse estiver em cima do botão o fundo muda */
+.box input[value="Salvar"]:hover, .box_ini input[value="Cadastrar"]:hover, .box_cadu input[value="Cadastrar"]:hover{
+    background: #21bf73;
+    width: 200px;
+    color: #363636;
+}
+
+.box input[name="Cadastrar"], .box_cadu input[name="Logar"], .box_ini input[value="Login"]{
+    border: 0;
+    width: 150px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2d77a1;
+    padding: 14px 40px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[name="Cadastrar"]:hover, .box_ini input[value="Cadastrar"]:hover{
+    background: #2d77a1;
+}

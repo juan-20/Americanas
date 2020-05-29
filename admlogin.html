@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <header>
+
+      <meta charset="utf-8">
+        <title>adm</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/box.css">
+    <script src="js/main.js"></script>
+
+    
+
+    </header>
+      
+         <head>
+         <a href="produtos.html">voltar</a>
+         </head>
+        
+         <body>
+
+         
+            
+        <form id="form" class="box" action="#" method="POST "> 
+            <h1> Usuarios Login</h1>
+
+            <input type="text" name="id" placeholder="id" id="id" readonly> 
+            <input type="text" name="" placeholder="Nome" id="nome"> 
+            <input type="text" name="" placeholder="Endereço" id="endereco"> 
+            <input type="number" name="" placeholder="Telefone" id="telefone"> 
+            <input type="email" name="" placeholder="E-mail" id="email"> 
+            <input type="text" name="" placeholder="Cidade" id="cidade">
+            
+           
+
+
+            <input placeholder="Salvar" onclick="salvar()" id="Salvar" type="submit" name="" value="Salvar">
+            
+            <input placeholder="atualizar" id="atu" onclick="atuser()"  type="submit" name="" value="Atualizar">
+
+        </form>
+
+        
+    <div class="box_jus">
+      <h2>Lista de Usuários</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Endereço</th>
+            <th>Telefone</th>
+            <th>Email</th>
+            <th>Cidade</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="PERA" id="tbody">
+           
+        </tbody>
+      </table>
+    </div>
+
+      
+         </body>
+
+</html>
+        
